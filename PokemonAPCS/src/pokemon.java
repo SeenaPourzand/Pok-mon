@@ -7,6 +7,7 @@ public class pokemon {
 	}
 
 	String getType() {
+		
 		return type;
 	}
 }
