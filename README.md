@@ -1,4 +1,6 @@
 # Pokémon
+I have made a project and I think I linked it to this. IDK if succesful. test it out
+
 Pokémon Game for APCS Final Project
 Objectives:
 - Create a Story(Go up to first or second gym) - character names and interactions
