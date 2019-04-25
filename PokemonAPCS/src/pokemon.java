@@ -18,5 +18,13 @@ public class pokemon { // all parameters requiring a string
 	
 	}
 
+<<<<<<< HEAD
 	
+=======
+	String getType() {
+		
+		return type;
+	}
+String test;
+>>>>>>> branch 'master' of https://github.com/SeenaPourzand/Pok-mon.git
 }
