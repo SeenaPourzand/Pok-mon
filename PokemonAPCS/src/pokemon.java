@@ -7,7 +7,11 @@ public class pokemon { // all parameters requiring a string
 	private int hp;
 	private int attack;
 
+	private int spk_attack;
+
 	private int defense;
+
+	private int spk_defesne;
 
 	private int speed;
 	private int exp_Needed;
