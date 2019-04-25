@@ -18,7 +18,7 @@ public class pokemon { // all parameters requiring a string
 
 
 	public pokemon(String type) {
-	
+		this.type = type;
 	}
 
 
