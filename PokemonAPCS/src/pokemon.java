@@ -13,7 +13,7 @@ public class pokemon { // all parameters requiring a string
 	private int exp_Needed;
 
 	public pokemon(String type) {
-	
+		this.type = type;
 	}
 
 
