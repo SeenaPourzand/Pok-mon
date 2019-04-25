@@ -10,5 +10,5 @@ public class pokemon {
 		
 		return type;
 	}
-
+String test;
 }
