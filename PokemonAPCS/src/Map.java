@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 
 public class Map {
-	
-=======
+
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Rectangle;
@@ -49,5 +47,5 @@ public class Map {
 	}
 	// hey kidz this is the map class I created
 	// make sure whenever you log on to eclipse, pull first to check for changes
->>>>>>> branch 'master' of https://github.com/SeenaPourzand/Pok-mon.git
+
 }
