@@ -1,3 +1,4 @@
+import java.awt.Graphics;
 import java.awt.Rectangle;
 
 public class Map {
@@ -5,7 +6,8 @@ public class Map {
 	private final int LN_DIMENSION;
 	private int scale;
 	private Rectangle[][] map;
-
+// @param scale of each rect
+//@param how many rectangles for wid and height
 	public Map(int scale, int wid, int len) {
 		this.WID_DIMENSION = wid;// how many rectangles in width
 		this.LN_DIMENSION = len;// how many retcangles in height
@@ -20,6 +22,9 @@ public class Map {
 				// code IG
 			}
 		}
+	}
+	private void draw (Graphics g) {
+		
 	}
 	// hey kidz this is the map class I created
 	// make sure whenever you log on to eclipse, pull first to check for changes
