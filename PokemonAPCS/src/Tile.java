@@ -13,6 +13,7 @@ public class Tile {
 	}
 
 	public void tree1() {
+		//havent figured out yet.
 		i = crop((BufferedImage) i, 0, 0, 100, 100);
 	}
 
