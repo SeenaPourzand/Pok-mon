@@ -35,6 +35,7 @@ public class Player {
 		}
 		return img;
 	}
+
 	public void move(String s) {
 		if (s.equals("left")) {
 			rect.translate(-playerSize, 0);
