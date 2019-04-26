@@ -154,6 +154,7 @@ public class pokemonRunner {
 	}
 	protected void drawGame(Graphics g) {
 		game.draw(g);
+		game.m.draw(g);
 	}
 
 }
