@@ -1,6 +1,3 @@
-
-public class Map {
-
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Rectangle;
@@ -13,6 +10,7 @@ public class Map {
 	private final int LN_DIMENSION;
 	private int scale;
 	private Tile[][] map;
+	private Image image;
 
 // @param scale of each rect
 //@param how many rectangles for wid and height
@@ -38,12 +36,7 @@ public class Map {
 	}
 
 	public void draw(Graphics g) {
-		for (int r = 0; r < map.length; r++) {
-			for (int c = 0; c < map[r].length; c++) {
-				if (map[r][c] != null)
-					map[r][c].draw(g, c * scale, r * scale, c);
-			}
-		}
+
 	}
 	// hey kidz this is the map class I created
 	// make sure whenever you log on to eclipse, pull first to check for changes
